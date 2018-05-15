@@ -15,12 +15,8 @@ namespace InsertionSort
             int pivot = random.Next(array.Length);
             Console.WriteLine(pivot);
 
-            //ermitteln was links und rechts ist
-            bool swap = true;
-            while (swap == true)
-            {
-                
-            }
+            int leftSide = array.Length - pivot;
+            int rightSide = array.Length - leftSide;
 
         }
     }
