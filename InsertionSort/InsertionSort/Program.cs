@@ -13,6 +13,8 @@ namespace InsertionSort
             int[] unsortArray = new int[5] { 12, 11, 15, 3, 7 };
             ShakerSort.Sort(unsortArray);
             Console.WriteLine(String.Join(", ", unsortArray));
+
+       
         }
 
 
